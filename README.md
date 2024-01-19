@@ -1,6 +1,6 @@
 # PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer
 
-Here is the PyTorch implementation of the paper **_PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer_**. We released the code of PointNAT for S3DIS. And the Toronto3D and SensatUrban will be released soon.
+Here is the PyTorch implementation of the paper **_PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer_**.
 
 
 ## Setup
