@@ -17,14 +17,13 @@ tar -xvf s3disfull.tar
 cd ../../
 ```
 
-## S3DIS
-- Train
+## Train
 ```
-CUDA_VISIBLE_DEVICES='0' python examples/segmentation/main.py  --cfg cfgs/s3dis/spotr.yaml
+CUDA_VISIBLE_DEVICES=0 bash script/main_segmentation.sh cfgs/s3dis/pointnat.yaml wandb.use_wandb=True
 ```
-- Inference
+## Test
 ```
-CUDA_VISIBLE_DEVICES='0' python examples/segmentation/main.py  --cfg cfgs/s3dis/spotr.yaml  mode=test --pretrained_path your/ckpt/path.pth
+CUDA_VISIBLE_DEVICES='0' bash script/main_segmentation.sh cfgs/s3dis/pointnat.yaml wandb.use_wandb=False mode=test --pretrained_path path/to/pretrained/model.pth
 ```
 
 
