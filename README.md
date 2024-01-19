@@ -1,9 +1,13 @@
 # PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer
 
-Here is the PyTorch implementation of the paper **_PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer_**. 
+Here is the PyTorch implementation of the paper **_PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer_**. We released the code of PointNAT for S3DIS. And the Toronto3D and SensatUrban will be released soon.
 
 
-
+## Setup
+- Install packages with a setup file
+```
+bash install.sh
+```
 - Dataset
 ```
 mkdir -p data/S3DIS/
@@ -13,7 +17,7 @@ tar -xvf s3disfull.tar
 cd ../../
 ```
 
-### S3DIS
+## S3DIS
 - Train
 ```
 CUDA_VISIBLE_DEVICES='0' python examples/segmentation/main.py  --cfg cfgs/s3dis/spotr.yaml
