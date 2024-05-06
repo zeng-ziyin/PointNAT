@@ -3,7 +3,7 @@
 Here is the PyTorch implementation of the paper **_PointNAT: Large Scale Point Cloud Semantic Segmentation via Neighbor Aggregation with Transformer_**.
 
 <div align='left'>
-<img src="fig.jpg" alt="teaser" width="67%" />
+<img src="fig1.jpg" alt="teaser" width="100%" />
 </div>
 
 ## Setup
